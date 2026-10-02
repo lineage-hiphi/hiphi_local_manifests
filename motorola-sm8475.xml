@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- device trees -->
-  <project name="lineage-hiphi/android_device_motorola_sm8475-common" path="device/motorola/sm8475-common" remote="github" revision="lineage-24.0"/>
+<!--  <project name="lineage-hiphi/android_device_motorola_sm8475-common" path="device/motorola/sm8475-common" remote="github" revision="lineage-24.0"/> -->
+  <project name="lineage-hiphi/android_device_motorola_sm8475-common" path="device/motorola/sm8475-common" remote="github" revision="test2/lineage-24.0"/> -->
   <project name="lineage-hiphi/android_device_motorola_hiphi" path="device/motorola/hiphi" remote="github" revision="lineage-24.0"/>
 
   <!-- kernel -->
@@ -13,7 +14,7 @@
 
    <!-- prebuilt kernel (not today, Satan) -->
   <!--
-  <project name="motorola-sm8450-devs/android_device_motorola_hiphi-kernel" path="device/motorola/hiphi-kernel" remote="github" revision="lineage-24.0"/>
+  <project name="lineage-hiphi/android_device_motorola_hiphi-kernel" path="device/motorola/hiphi-kernel" remote="github" revision="lineage-24.0"/>
   -->
 
   <!-- vendor -->
